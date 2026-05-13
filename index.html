@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#1A120A" />
+<title>FreedomBLiNGs — Coming Back Stronger</title>
+<meta name="description" content="The Sovereign Economy of the HoneyComb. Coming back stronger. Built fresh in the manual." />
+<meta property="og:title" content="FreedomBLiNGs" />
+<meta property="og:description" content="The Sovereign Economy of the HoneyComb. Coming back stronger." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://freedomblings.com/" />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="https://freedomblings.com/" />
+<style>
+  :root {
+    --cocoa: #1A120A;
+    --cocoa-soft: #2A1C12;
+    --honey: #FAD15E;
+    --honey-dim: #C9A93F;
+    --cream: #F2E9D8;
+    --cream-dim: #A89C84;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    background: var(--cocoa);
+    color: var(--cream);
+    font-family: ui-serif, Georgia, "Times New Roman", Times, serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(24px, 6vw, 64px);
+    line-height: 1.5;
+    text-align: center;
+    background-image:
+      radial-gradient(ellipse 70% 50% at 50% 30%, rgba(250, 209, 94, 0.06), transparent 70%),
+      radial-gradient(ellipse 80% 60% at 50% 80%, rgba(250, 209, 94, 0.03), transparent 70%);
+  }
+  main {
+    max-width: 720px;
+    width: 100%;
+  }
+  h1 {
+    color: var(--honey);
+    font-weight: 700;
+    font-size: clamp(48px, 10vw, 96px);
+    letter-spacing: -0.02em;
+    margin: 0 0 0.2em;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.4);
+  }
+  .sub {
+    color: var(--cream);
+    font-style: italic;
+    font-size: clamp(18px, 2.6vw, 24px);
+    margin: 0 0 2em;
+    opacity: 0.92;
+  }
+  .body {
+    color: var(--cream);
+    font-size: clamp(16px, 2vw, 20px);
+    margin: 0 auto;
+    max-width: 52ch;
+  }
+  .body p { margin: 0.6em 0; }
+  .body strong { color: var(--honey-dim); font-weight: 600; }
+  .rule {
+    width: 80px;
+    height: 1px;
+    background: var(--honey);
+    opacity: 0.6;
+    margin: 3em auto 2em;
+    border: 0;
+  }
+  footer {
+    color: var(--cream-dim);
+    font-size: clamp(13px, 1.4vw, 15px);
+    font-style: italic;
+    max-width: 52ch;
+    margin: 0 auto;
+  }
+  footer .attrib {
+    display: block;
+    margin-top: 0.4em;
+    font-style: normal;
+    color: var(--honey-dim);
+    letter-spacing: 0.04em;
+    font-size: 0.85em;
+  }
+  .bee {
+    margin-top: 3em;
+    font-size: 22px;
+    letter-spacing: 0.6em;
+    opacity: 0.6;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    h1 { animation: settle 900ms ease-out both; }
+    .sub { animation: settle 1100ms ease-out 120ms both; }
+    .body { animation: settle 1300ms ease-out 220ms both; }
+    footer, .bee { animation: settle 1500ms ease-out 360ms both; }
+    @keyframes settle {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>FreedomBLiNGs</h1>
+  <p class="sub">The Sovereign Economy of the HoneyComb</p>
+  <div class="body">
+    <p>Coming back stronger.</p>
+    <p>Built fresh <em>in the manual</em>.</p>
+    <p><strong>Founding Bee window opens July 4, 2026.</strong></p>
+  </div>
+  <hr class="rule" />
+  <footer>
+    "Promote your favorite ___, earn BLiNG!"
+  </footer>
+  <div class="bee" aria-hidden="true">🐝&nbsp;&nbsp;🍯</div>
+</main>
+</body>
+</html>
